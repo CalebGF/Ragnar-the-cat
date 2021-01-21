@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+
+.nav-link, h1{
+    color: #fff;
+}
+
+{
+    color: #000;
+}
+
+.welcome-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://drive.google.com/file/d/1_M17rGBazN-olmx2lPh-eUXwyNC1Wlm6/view?usp=sharing); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+section {
+    padding: 3rem 0;
+}
+
+/* Home */
+h1 {
+    padding-top: 140px;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+h3,
+.bio-text,
+.hobbie-sub,
+.hobbie-text,
+footer,
+.nav-link:hover  {
+    color: #A19570;
+}
+
+/* Bio */
+
+h3 {
+    padding-bottom: 3rem;
+    font-size: 60px;
+}
+
+
+.img-container {
+    width: 500px;
+    height: 500px;
+}
+
+.bio-image {
+    width: 100%;
+}
+
+.bio-text {
+    margin-top: 20%;
+    font-size: 1.5rem
+}
+
+
+/* Hobbies */
+
+.text-container {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+
+h4 {
+    padding-bottom: 25px;
+    font-size: 40px;
+}
+
+.hobbie-text{
+    font-size: 25px;
+}
+
+#hobbies,
+footer {
+    background-color: #000;
+}
+
+.carousel-control-next {
+    width: 50px;
+}
+.carousel-control-prev {
+    left: -75px;
+}
+
+..carousel-control-prev,
+.carousel-control-next {
+    color: #D1D2E8;
+}
+footer {
+    border-top: 1px solid #D1D2E8;
+    padding: 15px 15px;
+}
