@@ -35,6 +35,7 @@ h1 {
     padding-top: 140px;
     font-weight: bold;
     font-size: 96px;
+    line-
 }
 
 h3,
@@ -42,7 +43,7 @@ h3,
 .hobbie-sub,
 .hobbie-text,
 footer,
-.nav-link:hover  {
+.nav-link:hover {
     color: #A19570;
 }
 
@@ -65,7 +66,7 @@ h3 {
 
 .bio-text {
     margin-top: 20%;
-    font-size: 1.5rem
+    font-size: 24px
 }
 
 
