@@ -13,7 +13,7 @@ body {
 }
 
 .welcome-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://drive.google.com/file/d/1_M17rGBazN-olmx2lPh-eUXwyNC1Wlm6/view?usp=sharing); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/ragnar-1.jpg); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,7 +60,7 @@ h3 {
 }
 
 .bio-image {
-    width: 100%;
+    width: 75%;
 }
 
 .bio-text {
