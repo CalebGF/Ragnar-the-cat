@@ -4,13 +4,11 @@ body {
 
 /* Nav */
 
-.nav-link, h1{
-    color: #fff;
+.nav-link, 
+h1{
+    color: #d0cab8 !important;
 }
 
-{
-    color: #000;
-}
 
 .welcome-home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/ragnar-1.jpg); 
@@ -35,7 +33,6 @@ h1 {
     padding-top: 140px;
     font-weight: bold;
     font-size: 96px;
-    line-
 }
 
 h3,
@@ -61,7 +58,14 @@ h3 {
 }
 
 .bio-image {
-    width: 75%;
+    width: 550px;
+    position: relative;
+    height: 550px;
+    background: #A19570;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: #A19570;
+    box-shadow: 20px 20px #ebe9e1;
+    transition: all .4s ease;
 }
 
 .bio-text {
@@ -84,6 +88,10 @@ h4 {
 
 .hobbie-text{
     font-size: 25px;
+}
+
+.hobbie-image{
+    width: 750px;
 }
 
 #hobbies,
