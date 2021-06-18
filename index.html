@@ -7,128 +7,133 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-  <section class="welcome-home">
+  <section class="welcome-home" id="welcome-home">
     <header>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#bio">Biography</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#hobbies">Hobbies</a>
-        </li>
-      </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ragnar the Cat</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#welcome-home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bio">Biography</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobbies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-    <h1 class="text-center"> Welcome to <br> Ragnar's space</h1>
-
-
+    <div class="row">
+      <h1 class=""> Welcome to <br> Ragnar's space</h1>
+    </div>
   </section>
 
   <section id="bio">
     <div class="row justify-content-center">
-      <h3 class="">Biography</h3>
-
+      <h3 class="weiht-100">Biography</h3>
     </div>
     <div class="row justify-content-around">
-      <div class="col-5 bio-container">
-        <img src="images/ragnar-3.jpg" class="bio-image" alt="...">
-      </div>
-      <div class="col-5 img-container">
-        <p class="bio-text">
-          Born in the streets of Calella Catalonia in March 2017, after some very kind humans found him, he was transferred to
-          a Veterinarian where it was adopted. He lived a year and a half in Calella where  he started to learn a lot kind of new things.
+      <div class="col-lg-6 col-12 img-container">
+        <p class="bio-text text-justify">
+          Born in the streets of Calella Catalonia in March 2017, after some very kind humans found him, he was
+          transferred to
+          a Veterinarian where it was adopted. He lived a year and a half in Calella where he started to learn a lot
+          kind of new things.
           The family moved to Barcelona where he happly lives.
         </p>
+      </div>
+      <div class="col-lg-6 col-12 bio-image-container">
+        <img src="images/ragnar-3.jpg" class="bio-image" alt="...">
       </div>
     </div>
   </section>
 
   <section id="hobbies">
     <div class="row justify-content-center">
-      <h3 class="">Hobbies</h3>
-
+      <h3 class="weiht-100">Hobbies</h3>
     </div>
-    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div id="hobbies-slider" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="7000">
           <div class="row justify-content-around">
-            <div class="col-5 text-container">
-              <h4 class="hobbie-sub">Modeling</h4>
+            <div class="col-12 col-lg-6 img-container">
+              <img src="images/ragnar-2.jpg" class="hobbie-image" alt="...">
+            </div>
+            <div class="col-12 col-lg-6 text-container">
+              <h4 class="hobbie-sub weiht-100">Modeling</h4>
               <p class="hobbie-text">
                 A clear natural talent for posing
               </p>
-            </div>
-            <div class="col-5 img-container">
-              <img src="images/ragnar-2.jpg" class="hobbie-image" alt="...">
             </div>
           </div>
         </div>
         <div class="carousel-item" data-interval="7000">
           <div class="row justify-content-around">
-            <div class="col-5 text-container">
-              <h4 class="hobbie-sub">Stare</h4>
+            <div class="col-12 col-lg-6 img-container">
+              <img src="images/ragnar-4.jpg" class="hobbie-image" alt="...">
+            </div>
+            <div class="col-12 col-lg-6 text-container">
+              <h4 class="hobbie-sub weiht-100">Stare</h4>
               <p class="hobbie-text">
                 He could spend hours staring an spot without even blinking
               </p>
             </div>
-            <div class="col-5 img-container">
-              <img src="images/ragnar-4.jpg" class="hobbie-image" alt="...">
-            </div>
           </div>
-        </div> 
+        </div>
         <div class="carousel-item" data-interval="7000">
           <div class="row justify-content-around">
-            <div class="col-5 text-container">
-              <h4 class="hobbie-sub">Chess</h4>
+            <div class="col-12 col-lg-6 img-container">
+              <img src="images/ragnar-5.jpg" class="hobbie-image" alt="...">
+            </div>
+            <div class="col-12 col-lg-6 text-container">
+              <h4 class="hobbie-sub weiht-100">Chess</h4>
               <p class="hobbie-text">
                 After watching Queen's Gambit, his passion for chess began
               </p>
             </div>
-            <div class="col-5 img-container">
-              <img src="images/ragnar-5.jpg" class="hobbie-image" alt="...">
-            </div>
           </div>
-        </div> 
+        </div>
       </div>
-        
-    
-      <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#hobbies-slider" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hobbies-slider" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </section>
 
   <footer>
-    Webpage desing by Caleb González Flores for the MigraCode application.
+    Webpage desing by Caleb González Flores for the MigraCode application
   </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5214a55c82.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

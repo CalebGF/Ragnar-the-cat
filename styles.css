@@ -1,17 +1,127 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
+
+.weiht-100 {
+  font-weight: 100;
+}
 /* Nav */
 
-.nav-link, 
-h1{
-    color: #d0cab8 !important;
+.nav-link,
+h1,
+.navbar-brand,
+#hobbies h3,
+.text-container,
+footer {
+  color: #d0cab8;
 }
 
 
+/* Section Home */
 .welcome-home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/ragnar-1.jpg); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(images/ragnar-mobile.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+  height: 100vh;
+}
+
+nav {
+  background-color: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow:  none;
+}
+
+.navbar-toggler i
+ {
+  color: #fff;
+}
+
+.navbar-toggler {
+  border: 1px solid #d0cab8;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar-collapse {
+  margin: 1rem 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+h1 {
+  position: absolute;
+  top: 18rem;
+  font-size: 3rem;
+  text-align: right;
+}
+
+#bio,
+#hobbies {
+  padding: 3rem 1rem;
+}
+
+/* BIO SECTION */
+
+
+section h3 {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.bio-text {
+  text-align: justify;
+}
+
+.bio-image-container {
+  text-align: center;
+  width: 600px;
+}
+
+.bio-image {
+  width: 100%;
+}
+
+
+/* Hobbies Section */
+#hobbies {
+  background-color: #000;
+  text-align: cesnter;
+  height: 500px;
+}
+
+.text-container {
+  padding-top: .5rem;
+}
+
+#hobbies .img-container {
+  width: 400px;
+}
+
+.hobbie-image{
+  width: 100%;
+}
+
+footer{
+  background-color: #000;
+  border-top: 1px solid #fff;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .welcome-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(images/ragnar-1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,96 +131,76 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-}
+    padding-top: 0;
+  }
 
-
-section {
+  section {
     padding: 3rem 0;
-}
+  }
+  .container-fluid{
+    border-bottom: 1px solid #b5ab8f;
+    margin: 0 .5rem;
+  }
+  .navbar-collapse {
+    border: none;
+  }
 
-/* Home */
-h1 {
-    padding-top: 140px;
-    font-weight: bold;
-    font-size: 96px;
-}
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #f2f0eb;
+  }
 
-h3,
-.bio-text,
-.hobbie-sub,
-.hobbie-text,
-footer,
-.nav-link:hover {
-    color: #A19570;
-}
+  h1 {
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 7rem;
+  }
 
-/* Bio */
 
-h3 {
+  /* Bio */
+
+  h3 {
     padding-bottom: 3rem;
     font-size: 60px;
-}
+  }
 
-
-.img-container {
+  .img-container {
     width: 500px;
     height: 500px;
-}
+  }
 
-.bio-image {
+  .bio-image {
     width: 550px;
     position: relative;
     height: 550px;
-    background: #A19570;
-    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-    color: #A19570;
+    background: #a19570;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+    color: #a19570;
     box-shadow: 20px 20px #ebe9e1;
-    transition: all .4s ease;
-}
+    transition: all 0.4s ease;
+  }
 
-.bio-text {
+  .bio-text {
     margin-top: 20%;
-    font-size: 24px
-}
+    font-size: 24px;
+  }
 
+  /* Hobbies */
 
-/* Hobbies */
+  #hobbies {
+    height: 800px;
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
+    width: 40px;
+    color: #fff;
+  }
+  
+  #hobbies .img-container{
+    min-width: 700px;
+  }
 
-.text-container {
-    padding-left: 15%;
-    padding-top: 5%;
-}
-
-h4 {
-    padding-bottom: 25px;
-    font-size: 40px;
-}
-
-.hobbie-text{
-    font-size: 25px;
-}
-
-.hobbie-image{
-    width: 750px;
-}
-
-#hobbies,
-footer {
-    background-color: #000;
-}
-
-.carousel-control-next {
-    width: 50px;
-}
-.carousel-control-prev {
-    left: -75px;
-}
-
-..carousel-control-prev,
-.carousel-control-next {
-    color: #D1D2E8;
-}
-footer {
-    border-top: 1px solid #D1D2E8;
-    padding: 15px 15px;
+  .text-container {
+    padding-top: 1rem;
+  }
 }
